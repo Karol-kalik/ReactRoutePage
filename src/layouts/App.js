@@ -10,7 +10,7 @@ class App extends React.Component {
   state = {  }
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
           <header>
             {<Header />}
