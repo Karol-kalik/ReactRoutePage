@@ -1,0 +1,12 @@
+span.author{
+  font-style: italic;
+
+}
+h1.title{
+  padding: 0;
+  margin: 0;
+}
+p.article{
+  width: 90%;
+  margin: 20px auto 50px;
+}
